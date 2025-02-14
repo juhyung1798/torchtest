@@ -1,6 +1,5 @@
 import torch
-
-print("PyTorch 버전:", torch.__version__)
+print('hello') 
 print("CUDA 사용 가능 여부:", torch.cuda.is_available())
 print("사용 가능한 GPU 개수:", torch.cuda.device_count())
 
